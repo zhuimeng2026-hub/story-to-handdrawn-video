@@ -1,0 +1,121 @@
+{
+  "project": {
+    "title": "草·白居易",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "colored-pencil-diary",
+    "style_name": "彩铅日记漫画（默认）",
+    "style_library_version": 1,
+    "style_fingerprint": "fc55afc33a1e24d9",
+    "style_lock": "Match the supplied Chinese diary-comic reference family closely: a clean pure-white digital page, blunt uneven black felt-tip outlines with visible hand wobble, naïve simplified anatomy, and dry wax-colored-pencil fills made from overlapping short diagonal scribbles that deliberately leave small white gaps. Keep the drawing human and slightly clumsy, never polished or vector-perfect.\n\nUse oversized rounded heads, short compact bodies, simple mitten-like hands, dot or short-stroke eyes, tiny noses, expressive eyebrows and mouths, light peach pencil on faces, soft pink cheek marks, and sparse gray pencil strokes for elderly hair. Let posture and gesture carry the emotion; keep violence non-graphic and restrained.\n\nStage one immediately readable tableau with only the people and props needed for the current beat. Use sparse but recognizable domestic, street, school, or clinic objects drawn with the same rough black contour. Keep most of the background unfilled white. The subject group should usually occupy about 70–82% of the illustration panel while remaining fully inside the safe border; use a medium or wider view by default and a fully contained medium close-up only for a reaction beat.\n\nLimit color to a small muted pencil palette led by dusty hospital blue, brick red, charcoal gray-black, warm beige, pale tan, muted yellow, light gray, and rare muted olive when the scene needs it. Use solid black scribbles for hair, trousers, and the darkest accents. Do not use smooth digital fills, airbrush shading, gradients, glossy highlights, watercolor washes, realistic light, paper grain, manga/anime rendering, 3D, photorealism, decorative borders, logos, signatures, or watermarks.\n\nTreat the approved output board as the final execution target for line weight, pencil density, figure scale, facial simplicity, negative space, and overall finish. Use it to resolve ambiguity between the technique boards and the written description, while ignoring its specific people, actions, and objects.",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.5,
+      "text": "离离原上草。",
+      "narration": "离离原上草。",
+      "visual": "使用“彩铅日记漫画（默认）”绘制一个单一、清楚、可画的故事场景：离离原上草。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "仅使用灰蓝、砖红、炭黑、暖米色、浅棕、柔黄、浅灰等低饱和彩铅色；每个色块保留明显短笔触与白色缝隙，背景大面积纯白。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/15-草/01.png",
+        "detail": null,
+        "color": "tangshi-images/15-草/01.png"
+      },
+      "subtitle": "原野上的草，长得很茂盛。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.5,
+      "text": "一岁一枯荣。",
+      "narration": "一岁一枯荣。",
+      "visual": "使用“彩铅日记漫画（默认）”绘制一个单一、清楚、可画的故事场景：一岁一枯荣。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "仅使用灰蓝、砖红、炭黑、暖米色、浅棕、柔黄、浅灰等低饱和彩铅色；每个色块保留明显短笔触与白色缝隙，背景大面积纯白。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/15-草/02.png",
+        "detail": null,
+        "color": "tangshi-images/15-草/02.png"
+      },
+      "subtitle": "每年都要枯黄一次，又茂盛一次。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.5,
+      "text": "野火烧不尽。",
+      "narration": "野火烧不尽。",
+      "visual": "使用“彩铅日记漫画（默认）”绘制一个单一、清楚、可画的故事场景：野火烧不尽。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "仅使用灰蓝、砖红、炭黑、暖米色、浅棕、柔黄、浅灰等低饱和彩铅色；每个色块保留明显短笔触与白色缝隙，背景大面积纯白。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/15-草/03.png",
+        "detail": null,
+        "color": "tangshi-images/15-草/03.png"
+      },
+      "subtitle": "野火怎么烧也烧不完它，"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.5,
+      "text": "春风吹又生。",
+      "narration": "春风吹又生。",
+      "visual": "使用“彩铅日记漫画（默认）”绘制一个单一、清楚、可画的故事场景：春风吹又生。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "仅使用灰蓝、砖红、炭黑、暖米色、浅棕、柔黄、浅灰等低饱和彩铅色；每个色块保留明显短笔触与白色缝隙，背景大面积纯白。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/15-草/04.png",
+        "detail": null,
+        "color": "tangshi-images/15-草/04.png"
+      },
+      "subtitle": "春风一吹，它又长出来了。"
+    }
+  ]
+}

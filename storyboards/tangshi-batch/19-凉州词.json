@@ -1,0 +1,121 @@
+{
+  "project": {
+    "title": "凉州词·王翰",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "kid-crayon",
+    "style_name": "五岁儿童蜡笔坏画",
+    "style_library_version": 1,
+    "style_fingerprint": "153fabbd2b9d0c15",
+    "style_lock": "像真实五岁孩子用蜡笔画在白纸上的画，不是专业插画师模仿童趣。主体清楚可认，但比例笨拙、形状歪扭、物体可轻微漂浮。\n轮廓摇晃、经常重复描线、转角冲过头且不闭合；脸部左右不齐，手脚是简单弯曲线。蜡笔颜色明亮平坦，笔触方向随机，大块漏白并多处涂出轮廓。\n宁可粗糙、失衡和好笑，也不要可爱精修、对称、漂亮构图、渐变、柔顺描边或统一数字蜡笔滤镜。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.6,
+      "text": "葡萄美酒夜光杯。",
+      "narration": "葡萄美酒夜光杯。",
+      "visual": "使用“五岁儿童蜡笔坏画”绘制一个单一、清楚、可画的故事场景：葡萄美酒夜光杯。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "红、黄、蓝、绿、橙、粉等基础蜡笔色，无遮罩式平滑填充；每块颜色留出大片白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/19-凉州词/01.png",
+        "detail": null,
+        "color": "tangshi-images/19-凉州词/01.png"
+      },
+      "subtitle": "香甜的葡萄酒，盛在会发光的玉杯里。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.6,
+      "text": "欲饮琵琶马上催。",
+      "narration": "欲饮琵琶马上催。",
+      "visual": "使用“五岁儿童蜡笔坏画”绘制一个单一、清楚、可画的故事场景：欲饮琵琶马上催。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "红、黄、蓝、绿、橙、粉等基础蜡笔色，无遮罩式平滑填充；每块颜色留出大片白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/19-凉州词/02.png",
+        "detail": null,
+        "color": "tangshi-images/19-凉州词/02.png"
+      },
+      "subtitle": "正想喝，马背上的琵琶就催起来了。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.6,
+      "text": "醉卧沙场君莫笑。",
+      "narration": "醉卧沙场君莫笑。",
+      "visual": "使用“五岁儿童蜡笔坏画”绘制一个单一、清楚、可画的故事场景：醉卧沙场君莫笑。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "红、黄、蓝、绿、橙、粉等基础蜡笔色，无遮罩式平滑填充；每块颜色留出大片白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/19-凉州词/03.png",
+        "detail": null,
+        "color": "tangshi-images/19-凉州词/03.png"
+      },
+      "subtitle": "就算喝醉倒在战场上，也别笑话我。"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.6,
+      "text": "古来征战几人回。",
+      "narration": "古来征战几人回。",
+      "visual": "使用“五岁儿童蜡笔坏画”绘制一个单一、清楚、可画的故事场景：古来征战几人回。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "红、黄、蓝、绿、橙、粉等基础蜡笔色，无遮罩式平滑填充；每块颜色留出大片白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/19-凉州词/04.png",
+        "detail": null,
+        "color": "tangshi-images/19-凉州词/04.png"
+      },
+      "subtitle": "自古以来打仗的人，能有几个回来呢。"
+    }
+  ]
+}

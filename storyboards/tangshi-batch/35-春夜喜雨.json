@@ -1,0 +1,209 @@
+{
+  "project": {
+    "title": "春夜喜雨·杜甫",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "retro-gouache-concept",
+    "style_name": "中古动画水粉概念稿",
+    "style_library_version": 1,
+    "style_fingerprint": "988aff1a789f9496",
+    "style_lock": "复古二维动画的手绘水粉概念稿，画在暖奶油色纸底上。保留松散铅笔起稿线，用哑光不透明水粉概括人物、道具和背景大形，边缘能看到干刷与笔触。\n构图有一个清楚焦点，形状简化而表演生动；用受控的橙蓝互补色、奶油黄、砖红和灰蓝，光线柔暖，背景像舞台布景般概括，不堆小细节。\n保持旧动画美术设定稿的手工感；不要现代动漫五官、光滑数字厚涂、3D、照片写实、荧光色或细碎纹理。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.5,
+      "text": "好雨知时节。",
+      "narration": "好雨知时节。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：好雨知时节。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/35-春夜喜雨/01.png",
+        "detail": null,
+        "color": "tangshi-images/35-春夜喜雨/01.png"
+      },
+      "subtitle": "好雨像知道时节一样。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.5,
+      "text": "当春乃发生。",
+      "narration": "当春乃发生。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：当春乃发生。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/35-春夜喜雨/02.png",
+        "detail": null,
+        "color": "tangshi-images/35-春夜喜雨/02.png"
+      },
+      "subtitle": "一到春天，它就下起来了。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.5,
+      "text": "随风潜入夜。",
+      "narration": "随风潜入夜。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：随风潜入夜。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/35-春夜喜雨/03.png",
+        "detail": null,
+        "color": "tangshi-images/35-春夜喜雨/03.png"
+      },
+      "subtitle": "它跟着风，悄悄地在夜里落下。"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.5,
+      "text": "润物细无声。",
+      "narration": "润物细无声。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：润物细无声。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/35-春夜喜雨/04.png",
+        "detail": null,
+        "color": "tangshi-images/35-春夜喜雨/04.png"
+      },
+      "subtitle": "细细地滋润着万物，一点声音也没有。"
+    },
+    {
+      "id": "05",
+      "duration_sec": 4.5,
+      "text": "野径云俱黑。",
+      "narration": "野径云俱黑。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：野径云俱黑。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/35-春夜喜雨/05.png",
+        "detail": null,
+        "color": "tangshi-images/35-春夜喜雨/05.png"
+      },
+      "subtitle": "野外的小路和天上的云，都是黑的。"
+    },
+    {
+      "id": "06",
+      "duration_sec": 4.5,
+      "text": "江船火独明。",
+      "narration": "江船火独明。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：江船火独明。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/35-春夜喜雨/06.png",
+        "detail": null,
+        "color": "tangshi-images/35-春夜喜雨/06.png"
+      },
+      "subtitle": "只有江上渔船的灯火亮着。"
+    },
+    {
+      "id": "07",
+      "duration_sec": 4.5,
+      "text": "晓看红湿处。",
+      "narration": "晓看红湿处。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：晓看红湿处。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/35-春夜喜雨/07.png",
+        "detail": null,
+        "color": "tangshi-images/35-春夜喜雨/07.png"
+      },
+      "subtitle": "天亮时看那被雨打湿的地方，"
+    },
+    {
+      "id": "08",
+      "duration_sec": 4.5,
+      "text": "花重锦官城。",
+      "narration": "花重锦官城。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：花重锦官城。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/35-春夜喜雨/08.png",
+        "detail": null,
+        "color": "tangshi-images/35-春夜喜雨/08.png"
+      },
+      "subtitle": "成都城里的花，都被雨水压得沉沉的。"
+    }
+  ]
+}

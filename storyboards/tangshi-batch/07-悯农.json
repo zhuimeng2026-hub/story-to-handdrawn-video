@@ -1,0 +1,121 @@
+{
+  "project": {
+    "title": "悯农·李绅",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "rawkid-crayon",
+    "style_name": "潦草家庭投稿蜡笔",
+    "style_library_version": 1,
+    "style_fingerprint": "790e3be8f51609df",
+    "style_lock": "明亮纯白底的家庭投稿蜡笔故事卡：普通大人先画细到中等粗的歪黑线稿，再由孩子用短蜡笔断断续续乱涂。人物保持真实年龄高矮，只轻微大头，不能做成统一萌娃模板。\n脸用很小的竖椭圆点眼、短折线鼻、极短歪嘴和两团不等大的珊瑚红乱涂腮红。轮廓会抖、断、出头；同页人物的头型、肩宽和身体歪斜各不相同。\n每个色块都要多次停笔、换向、交叉、重压、漏空和偶发越界；横划、竖划、斜划、回圈混在一起。严禁细密平行斜线、等距排线、均匀覆盖和统一蜡笔纹理。背景只保留当前动作必需的零到两件道具。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.5,
+      "text": "锄禾日当午。",
+      "narration": "锄禾日当午。",
+      "visual": "使用“潦草家庭投稿蜡笔”绘制一个单一、清楚、可画的故事场景：锄禾日当午。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "明快但不荧光的普通蜡笔色；同一色块方向、密度与压力突然变化，大片露白，少量越界。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/07-悯农/01.png",
+        "detail": null,
+        "color": "tangshi-images/07-悯农/01.png"
+      },
+      "subtitle": "农民在正午的太阳下面锄地，"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.5,
+      "text": "汗滴禾下土。",
+      "narration": "汗滴禾下土。",
+      "visual": "使用“潦草家庭投稿蜡笔”绘制一个单一、清楚、可画的故事场景：汗滴禾下土。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "明快但不荧光的普通蜡笔色；同一色块方向、密度与压力突然变化，大片露白，少量越界。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/07-悯农/02.png",
+        "detail": null,
+        "color": "tangshi-images/07-悯农/02.png"
+      },
+      "subtitle": "汗水一滴滴掉进泥土里。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.5,
+      "text": "谁知盘中餐。",
+      "narration": "谁知盘中餐。",
+      "visual": "使用“潦草家庭投稿蜡笔”绘制一个单一、清楚、可画的故事场景：谁知盘中餐。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "明快但不荧光的普通蜡笔色；同一色块方向、密度与压力突然变化，大片露白，少量越界。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/07-悯农/03.png",
+        "detail": null,
+        "color": "tangshi-images/07-悯农/03.png"
+      },
+      "subtitle": "谁知道我们碗里的每一口饭，"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.5,
+      "text": "粒粒皆辛苦。",
+      "narration": "粒粒皆辛苦。",
+      "visual": "使用“潦草家庭投稿蜡笔”绘制一个单一、清楚、可画的故事场景：粒粒皆辛苦。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "明快但不荧光的普通蜡笔色；同一色块方向、密度与压力突然变化，大片露白，少量越界。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/07-悯农/04.png",
+        "detail": null,
+        "color": "tangshi-images/07-悯农/04.png"
+      },
+      "subtitle": "都是这样辛辛苦苦种出来的。"
+    }
+  ]
+}

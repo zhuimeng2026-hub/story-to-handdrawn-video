@@ -1,0 +1,121 @@
+{
+  "project": {
+    "title": "咏雪·罗隐",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "ink-wash",
+    "style_name": "水墨写意",
+    "style_library_version": 1,
+    "style_fingerprint": "5a7d9210946b9ccb",
+    "style_lock": "中国传统写意水墨画，画在明亮生宣纸上。以黑墨为主，同一画面同时出现焦、浓、重、淡、清，笔内有明显浓淡干湿变化。\n用寥寥几笔抓住动作和神态，保留飞白枯笔、断笔、湿墨自然洇化与少量偶然飞溅；主体偏置，大量空白宣纸参与构图。最多用极少淡赭石或花青点染，并在角落放一枚无可读文字的小朱红印记。\n不是数字灰度滤镜，不勾死板轮廓，不均匀填色，不做写实摄影、艳丽彩绘、厚涂或密集背景。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.5,
+      "text": "尽道丰年瑞。",
+      "narration": "尽道丰年瑞。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：尽道丰年瑞。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/43-咏雪/01.png",
+        "detail": null,
+        "color": "tangshi-images/43-咏雪/01.png"
+      },
+      "subtitle": "大家都说这场雪，预示着丰收。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.5,
+      "text": "丰年事若何。",
+      "narration": "丰年事若何。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：丰年事若何。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/43-咏雪/02.png",
+        "detail": null,
+        "color": "tangshi-images/43-咏雪/02.png"
+      },
+      "subtitle": "可今年的收成，到底怎么样呢？"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.5,
+      "text": "长安有贫者。",
+      "narration": "长安有贫者。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：长安有贫者。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/43-咏雪/03.png",
+        "detail": null,
+        "color": "tangshi-images/43-咏雪/03.png"
+      },
+      "subtitle": "长安城里，还有些穷苦的人。"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.5,
+      "text": "为瑞不宜多。",
+      "narration": "为瑞不宜多。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：为瑞不宜多。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/43-咏雪/04.png",
+        "detail": null,
+        "color": "tangshi-images/43-咏雪/04.png"
+      },
+      "subtitle": "这样的雪，其实不宜下得太多。"
+    }
+  ]
+}

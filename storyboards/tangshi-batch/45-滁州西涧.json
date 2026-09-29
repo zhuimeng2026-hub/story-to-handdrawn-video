@@ -1,0 +1,121 @@
+{
+  "project": {
+    "title": "滁州西涧·韦应物",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "ink-wash",
+    "style_name": "水墨写意",
+    "style_library_version": 1,
+    "style_fingerprint": "5a7d9210946b9ccb",
+    "style_lock": "中国传统写意水墨画，画在明亮生宣纸上。以黑墨为主，同一画面同时出现焦、浓、重、淡、清，笔内有明显浓淡干湿变化。\n用寥寥几笔抓住动作和神态，保留飞白枯笔、断笔、湿墨自然洇化与少量偶然飞溅；主体偏置，大量空白宣纸参与构图。最多用极少淡赭石或花青点染，并在角落放一枚无可读文字的小朱红印记。\n不是数字灰度滤镜，不勾死板轮廓，不均匀填色，不做写实摄影、艳丽彩绘、厚涂或密集背景。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.6,
+      "text": "独怜幽草涧边生。",
+      "narration": "独怜幽草涧边生。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：独怜幽草涧边生。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/45-滁州西涧/01.png",
+        "detail": null,
+        "color": "tangshi-images/45-滁州西涧/01.png"
+      },
+      "subtitle": "我最爱溪边那片幽静的青草。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.6,
+      "text": "上有黄鹂深树鸣。",
+      "narration": "上有黄鹂深树鸣。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：上有黄鹂深树鸣。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/45-滁州西涧/02.png",
+        "detail": null,
+        "color": "tangshi-images/45-滁州西涧/02.png"
+      },
+      "subtitle": "上头还有黄鹂，在深深的树里叫着。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.6,
+      "text": "春潮带雨晚来急。",
+      "narration": "春潮带雨晚来急。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：春潮带雨晚来急。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/45-滁州西涧/03.png",
+        "detail": null,
+        "color": "tangshi-images/45-滁州西涧/03.png"
+      },
+      "subtitle": "傍晚涨潮又下雨，水流变得很急。"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.6,
+      "text": "野渡无人舟自横。",
+      "narration": "野渡无人舟自横。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：野渡无人舟自横。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/45-滁州西涧/04.png",
+        "detail": null,
+        "color": "tangshi-images/45-滁州西涧/04.png"
+      },
+      "subtitle": "渡口没有人，只有一只小船横在水上。"
+    }
+  ]
+}

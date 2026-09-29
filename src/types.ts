@@ -5,6 +5,9 @@ export type SceneData = {
   duration_sec: number;
   text: string;
   narration?: string;
+  // Modern-Chinese paraphrase burned into the frame under the drawing.
+  // Optional: scenes without one simply render no subtitle.
+  subtitle?: string | null;
   visual: string;
   shot: string;
   layers: LayerId[];

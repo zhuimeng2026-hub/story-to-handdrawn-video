@@ -1,0 +1,209 @@
+{
+  "project": {
+    "title": "山居秋暝·王维",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "ink-wash",
+    "style_name": "水墨写意",
+    "style_library_version": 1,
+    "style_fingerprint": "5a7d9210946b9ccb",
+    "style_lock": "中国传统写意水墨画，画在明亮生宣纸上。以黑墨为主，同一画面同时出现焦、浓、重、淡、清，笔内有明显浓淡干湿变化。\n用寥寥几笔抓住动作和神态，保留飞白枯笔、断笔、湿墨自然洇化与少量偶然飞溅；主体偏置，大量空白宣纸参与构图。最多用极少淡赭石或花青点染，并在角落放一枚无可读文字的小朱红印记。\n不是数字灰度滤镜，不勾死板轮廓，不均匀填色，不做写实摄影、艳丽彩绘、厚涂或密集背景。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.5,
+      "text": "空山新雨后。",
+      "narration": "空山新雨后。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：空山新雨后。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/32-山居秋暝/01.png",
+        "detail": null,
+        "color": "tangshi-images/32-山居秋暝/01.png"
+      },
+      "subtitle": "空旷的山里，刚下过一场雨。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.5,
+      "text": "天气晚来秋。",
+      "narration": "天气晚来秋。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：天气晚来秋。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/32-山居秋暝/02.png",
+        "detail": null,
+        "color": "tangshi-images/32-山居秋暝/02.png"
+      },
+      "subtitle": "傍晚的天气，已经有了秋天的凉意。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.5,
+      "text": "明月松间照。",
+      "narration": "明月松间照。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：明月松间照。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/32-山居秋暝/03.png",
+        "detail": null,
+        "color": "tangshi-images/32-山居秋暝/03.png"
+      },
+      "subtitle": "明亮的月光，从松树的缝隙照下来。"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.5,
+      "text": "清泉石上流。",
+      "narration": "清泉石上流。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：清泉石上流。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/32-山居秋暝/04.png",
+        "detail": null,
+        "color": "tangshi-images/32-山居秋暝/04.png"
+      },
+      "subtitle": "清清的泉水，在石头上流淌。"
+    },
+    {
+      "id": "05",
+      "duration_sec": 4.5,
+      "text": "竹喧归浣女。",
+      "narration": "竹喧归浣女。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：竹喧归浣女。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/32-山居秋暝/05.png",
+        "detail": null,
+        "color": "tangshi-images/32-山居秋暝/05.png"
+      },
+      "subtitle": "竹林里一阵喧闹，是洗衣的姑娘回来了。"
+    },
+    {
+      "id": "06",
+      "duration_sec": 4.5,
+      "text": "莲动下渔舟。",
+      "narration": "莲动下渔舟。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：莲动下渔舟。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/32-山居秋暝/06.png",
+        "detail": null,
+        "color": "tangshi-images/32-山居秋暝/06.png"
+      },
+      "subtitle": "莲叶动了动，是渔船顺流下去。"
+    },
+    {
+      "id": "07",
+      "duration_sec": 4.5,
+      "text": "随意春芳歇。",
+      "narration": "随意春芳歇。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：随意春芳歇。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/32-山居秋暝/07.png",
+        "detail": null,
+        "color": "tangshi-images/32-山居秋暝/07.png"
+      },
+      "subtitle": "春天的花草凋谢，就随它去吧。"
+    },
+    {
+      "id": "08",
+      "duration_sec": 4.5,
+      "text": "王孙自可留。",
+      "narration": "王孙自可留。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：王孙自可留。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/32-山居秋暝/08.png",
+        "detail": null,
+        "color": "tangshi-images/32-山居秋暝/08.png"
+      },
+      "subtitle": "这里这样好，我愿意留下来。"
+    }
+  ]
+}

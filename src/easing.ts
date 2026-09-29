@@ -1,6 +1,6 @@
 import {interpolate} from 'remotion';
 
-const smoothstep = (value: number) => value * value * (3 - 2 * value);
+export const smoothstep = (value: number) => value * value * (3 - 2 * value);
 
 export const revealProgress = (
   frame: number,

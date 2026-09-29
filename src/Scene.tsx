@@ -2,14 +2,18 @@ import {
   AbsoluteFill,
   Img,
   staticFile,
+  useCurrentFrame,
   useVideoConfig,
 } from 'remotion';
 import {LayerWipe} from './LayerWipe';
 import {TextWipe} from './TextWipe';
+import {Subtitle} from './Subtitle';
+import {kenBurnsStyle, motionFor, overscanStyle} from './KenBurns';
 import type {SceneData} from './types';
 
 export const Scene: React.FC<{scene: SceneData}> = ({scene}) => {
   const {fps} = useVideoConfig();
+  const frame = useCurrentFrame();
   const total = Math.round(scene.duration_sec * fps);
   const at = (ratio: number) => Math.round(total * ratio);
   const has = (layer: string) => scene.layers.includes(layer as never);
@@ -17,6 +21,11 @@ export const Scene: React.FC<{scene: SceneData}> = ({scene}) => {
   const staticColor = has('color') && !has('bw_full') && !has('detail');
   const fullUploadedPage =
     scene.shot === 'full_uploaded_page' && scene.assets.color;
+
+  // The drift runs across the whole scene, independent of how each plate is
+  // revealed, so every layer moves together and the composite stays aligned.
+  const motion = motionFor(scene.id);
+  const drift = kenBurnsStyle(frame / Math.max(1, total), motion);
 
   if (fullUploadedPage) {
     return (
@@ -43,6 +52,8 @@ export const Scene: React.FC<{scene: SceneData}> = ({scene}) => {
           durationFrames={at(speedMode ? 0.4 : 0.32)}
           zIndex={10}
           treatment="bw"
+          motionStyle={drift}
+          overscanStyle={overscanStyle()}
         />
       ) : null}
 
@@ -53,6 +64,8 @@ export const Scene: React.FC<{scene: SceneData}> = ({scene}) => {
           durationFrames={at(0.17)}
           zIndex={20}
           treatment="detail"
+          motionStyle={drift}
+          overscanStyle={overscanStyle()}
         />
       ) : null}
 
@@ -63,6 +76,8 @@ export const Scene: React.FC<{scene: SceneData}> = ({scene}) => {
           durationFrames={staticColor ? 1 : at(speedMode ? 0.36 : 0.23)}
           zIndex={30}
           treatment="color"
+          motionStyle={drift}
+          overscanStyle={overscanStyle()}
         />
       ) : null}
 
@@ -73,6 +88,12 @@ export const Scene: React.FC<{scene: SceneData}> = ({scene}) => {
         durationFrames={at(speedMode ? 0.22 : 0.16)}
       />
 
+      <Subtitle
+        text={scene.subtitle}
+        startFrame={0}
+        durationFrames={total}
+        fps={fps}
+      />
     </AbsoluteFill>
   );
 };

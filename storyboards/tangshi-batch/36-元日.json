@@ -1,0 +1,121 @@
+{
+  "project": {
+    "title": "元日·王安石",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "retro-gouache-concept",
+    "style_name": "中古动画水粉概念稿",
+    "style_library_version": 1,
+    "style_fingerprint": "988aff1a789f9496",
+    "style_lock": "复古二维动画的手绘水粉概念稿，画在暖奶油色纸底上。保留松散铅笔起稿线，用哑光不透明水粉概括人物、道具和背景大形，边缘能看到干刷与笔触。\n构图有一个清楚焦点，形状简化而表演生动；用受控的橙蓝互补色、奶油黄、砖红和灰蓝，光线柔暖，背景像舞台布景般概括，不堆小细节。\n保持旧动画美术设定稿的手工感；不要现代动漫五官、光滑数字厚涂、3D、照片写实、荧光色或细碎纹理。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.6,
+      "text": "爆竹声中一岁除。",
+      "narration": "爆竹声中一岁除。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：爆竹声中一岁除。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/36-元日/01.png",
+        "detail": null,
+        "color": "tangshi-images/36-元日/01.png"
+      },
+      "subtitle": "在鞭炮声里，旧的一年过去了。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.6,
+      "text": "春风送暖入屠苏。",
+      "narration": "春风送暖入屠苏。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：春风送暖入屠苏。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/36-元日/02.png",
+        "detail": null,
+        "color": "tangshi-images/36-元日/02.png"
+      },
+      "subtitle": "春风送来暖意，人们喝着屠苏酒。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.6,
+      "text": "千门万户曈曈日。",
+      "narration": "千门万户曈曈日。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：千门万户曈曈日。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/36-元日/03.png",
+        "detail": null,
+        "color": "tangshi-images/36-元日/03.png"
+      },
+      "subtitle": "千家万户都照着暖暖的太阳，"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.6,
+      "text": "总把新桃换旧符。",
+      "narration": "总把新桃换旧符。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：总把新桃换旧符。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/36-元日/04.png",
+        "detail": null,
+        "color": "tangshi-images/36-元日/04.png"
+      },
+      "subtitle": "家家都把旧的桃符换成新的。"
+    }
+  ]
+}

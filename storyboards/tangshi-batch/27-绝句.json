@@ -1,0 +1,121 @@
+{
+  "project": {
+    "title": "绝句·杜甫",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "retro-gouache-concept",
+    "style_name": "中古动画水粉概念稿",
+    "style_library_version": 1,
+    "style_fingerprint": "988aff1a789f9496",
+    "style_lock": "复古二维动画的手绘水粉概念稿，画在暖奶油色纸底上。保留松散铅笔起稿线，用哑光不透明水粉概括人物、道具和背景大形，边缘能看到干刷与笔触。\n构图有一个清楚焦点，形状简化而表演生动；用受控的橙蓝互补色、奶油黄、砖红和灰蓝，光线柔暖，背景像舞台布景般概括，不堆小细节。\n保持旧动画美术设定稿的手工感；不要现代动漫五官、光滑数字厚涂、3D、照片写实、荧光色或细碎纹理。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.6,
+      "text": "两个黄鹂鸣翠柳。",
+      "narration": "两个黄鹂鸣翠柳。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：两个黄鹂鸣翠柳。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/27-绝句/01.png",
+        "detail": null,
+        "color": "tangshi-images/27-绝句/01.png"
+      },
+      "subtitle": "两只黄鹂在翠绿的柳树上叫。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.6,
+      "text": "一行白鹭上青天。",
+      "narration": "一行白鹭上青天。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：一行白鹭上青天。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/27-绝句/02.png",
+        "detail": null,
+        "color": "tangshi-images/27-绝句/02.png"
+      },
+      "subtitle": "一行白鹭飞上蓝蓝的天。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.6,
+      "text": "窗含西岭千秋雪。",
+      "narration": "窗含西岭千秋雪。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：窗含西岭千秋雪。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/27-绝句/03.png",
+        "detail": null,
+        "color": "tangshi-images/27-绝句/03.png"
+      },
+      "subtitle": "窗口正好框住西岭上千年不化的雪。"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.6,
+      "text": "门泊东吴万里船。",
+      "narration": "门泊东吴万里船。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：门泊东吴万里船。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/27-绝句/04.png",
+        "detail": null,
+        "color": "tangshi-images/27-绝句/04.png"
+      },
+      "subtitle": "门前停着要去万里之外东吴的船。"
+    }
+  ]
+}

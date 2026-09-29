@@ -1,3 +1,4 @@
+import type {CSSProperties} from 'react';
 import {Img, staticFile, useCurrentFrame} from 'remotion';
 import {revealProgress} from './easing';
 
@@ -8,6 +9,10 @@ type LayerWipeProps = {
   opacity?: number;
   zIndex: number;
   treatment?: 'bw' | 'detail' | 'color';
+  // Ken Burns drift, shared by every plate in a scene so the composite moves as
+  // one image. Omitted for plates that must stay pinned (uploaded masters).
+  motionStyle?: CSSProperties;
+  overscanStyle?: CSSProperties;
 };
 
 const treatmentFilter = {
@@ -23,6 +28,8 @@ export const LayerWipe: React.FC<LayerWipeProps> = ({
   opacity = 1,
   zIndex,
   treatment = 'color',
+  motionStyle,
+  overscanStyle,
 }) => {
   const frame = useCurrentFrame();
   const progress = revealProgress(frame, startFrame, durationFrames);
@@ -39,21 +46,26 @@ export const LayerWipe: React.FC<LayerWipeProps> = ({
         left: 74,
         right: 74,
         top: 382,
-        bottom: 42,
+        // The bottom edge leaves room for the burned-in subtitle so translated
+        // text can never sit on top of the drawing.
+        bottom: 232,
         clipPath,
         opacity,
+        overflow: 'hidden',
       }}
     >
-      <Img
-        src={staticFile(src)}
-        style={{
-          width: '100%',
-          height: '100%',
-          objectFit: 'contain',
-          objectPosition: 'center center',
-          filter: treatmentFilter[treatment],
-        }}
-      />
+      <div style={{...overscanStyle, ...motionStyle}}>
+        <Img
+          src={staticFile(src)}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            objectPosition: 'center center',
+            filter: treatmentFilter[treatment],
+          }}
+        />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,121 @@
+{
+  "project": {
+    "title": "出塞·王昌龄",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "linocut-editorial",
+    "style_name": "粗粝木刻社论插画",
+    "style_library_version": 1,
+    "style_fingerprint": "c3598e430aa48f9a",
+    "style_lock": "手工油毡版或木刻感的社论插画。主体由粗重黑色形块和刀刻出的白色沟槽建立，轮廓有不规则缺口，明暗通过方向明确但不机械的刻线与大片黑白对比完成。\n使用暖白纤维纸底、黑墨和一块暗砖红或深蓝套色；允许轻微套印错位、墨色浓淡不均和边缘毛糙。构图大胆、符号化，一个强焦点，背景压缩成少数平面形。\n不要照片写实、细腻铅笔、平滑矢量边、均匀数字噪点、彩虹配色、渐变光影或过度细碎排线。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.6,
+      "text": "秦时明月汉时关。",
+      "narration": "秦时明月汉时关。",
+      "visual": "使用“粗粝木刻社论插画”绘制一个单一、清楚、可画的故事场景：秦时明月汉时关。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖白纸、黑墨与一块暗砖红或深蓝套色；高对比、刀痕露白、轻微套印错位。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/20-出塞/01.png",
+        "detail": null,
+        "color": "tangshi-images/20-出塞/01.png"
+      },
+      "subtitle": "还是秦朝的月亮，还是汉朝的关口。"
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.6,
+      "text": "万里长征人未还。",
+      "narration": "万里长征人未还。",
+      "visual": "使用“粗粝木刻社论插画”绘制一个单一、清楚、可画的故事场景：万里长征人未还。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖白纸、黑墨与一块暗砖红或深蓝套色；高对比、刀痕露白、轻微套印错位。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/20-出塞/02.png",
+        "detail": null,
+        "color": "tangshi-images/20-出塞/02.png"
+      },
+      "subtitle": "出征万里的战士，还没有回家。"
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.6,
+      "text": "但使龙城飞将在。",
+      "narration": "但使龙城飞将在。",
+      "visual": "使用“粗粝木刻社论插画”绘制一个单一、清楚、可画的故事场景：但使龙城飞将在。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖白纸、黑墨与一块暗砖红或深蓝套色；高对比、刀痕露白、轻微套印错位。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/20-出塞/03.png",
+        "detail": null,
+        "color": "tangshi-images/20-出塞/03.png"
+      },
+      "subtitle": "如果飞将军李广还在的话，"
+    },
+    {
+      "id": "04",
+      "duration_sec": 4.6,
+      "text": "不教胡马度阴山。",
+      "narration": "不教胡马度阴山。",
+      "visual": "使用“粗粝木刻社论插画”绘制一个单一、清楚、可画的故事场景：不教胡马度阴山。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖白纸、黑墨与一块暗砖红或深蓝套色；高对比、刀痕露白、轻微套印错位。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "tangshi-images/20-出塞/04.png",
+        "detail": null,
+        "color": "tangshi-images/20-出塞/04.png"
+      },
+      "subtitle": "就不会让敌人的马越过阴山。"
+    }
+  ]
+}
